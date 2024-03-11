@@ -9,9 +9,8 @@ const Textarea = ({ addNotes }) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        if (value === '') return;
-        addNotes(value)
-        setValue('')
+        addNotes(value);
+        setValue('');
     }
 
     return (
